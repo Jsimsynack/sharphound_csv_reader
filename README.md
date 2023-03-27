@@ -20,7 +20,10 @@ Run:
 
 Output:
 
-Domain Admins@agents.spy,"fleiter@agents.spy","user"\n
+Domain Admins@agents.spy,"fleiter@agents.spy","user"
+
 Enterprise Admins@agents.spy,"Administrator@agents.spy","user"
+
 Enterprise Admins@agents.spy,"fleiter@agents.spy","user"
+
 Schema Admins@agents.spy,"Administrator@agents.spy","user"
