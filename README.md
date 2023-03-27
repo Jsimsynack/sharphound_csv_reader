@@ -1,4 +1,4 @@
-# sharphound_csv_reader.py
+# sharp_reader.py
 This is a simple python script to read out the *.csv files created from sharphound.ps1
 
 # Requirements:
