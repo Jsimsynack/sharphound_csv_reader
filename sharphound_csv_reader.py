@@ -18,7 +18,7 @@ def check_file():
 	arguments = args[1:]
   
 	if len(arguments) < 1:
-   		print('Error: No argument provided')
+		print('Error: No argument provided')
 		print('Usage: python reader.py <file.csv>')
 		sys.exit(1)
     
