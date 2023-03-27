@@ -7,14 +7,14 @@ This is a simple python script to read out the *.csv files created from sharphou
 
 # Usage:
 
- python3 sharphound_csv_reader.py <file.csv>
+ python3 sharp_reader.py <file.csv>
 
- ./sharphound_csv_reader.py <file.csv>
+ ./sharp_reader.py <file.csv>
  
 # Example:
 Run:
 
-./sharphound_csv_reader.py group_memberships.csv                                    
+./sharp_reader.py group_memberships.csv                                    
 
 Output:
 
@@ -48,7 +48,7 @@ Extracting Users from *Admins* using bash pipes (Debian Linux)
 
 Run:
 
-./sharphound_csv_reader.py group_memberships.csv | grep Admins | grep user | sort -u
+./sharp_reader.py group_memberships.csv | grep Admins | grep user | sort -u
 
 Output:
 
