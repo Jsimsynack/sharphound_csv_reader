@@ -11,7 +11,10 @@ This is a simple python script to read out the *.csv files created from sharphou
 
  ./sharphound_csv_reader.py <file.csv>
  
-# Example of extracting Users from *Admins* using bash pipes (Debian Linux)
+# Example:
+Extracting Users from *Admins* using bash pipes (Debian Linux)
+
+Run:
 
 ./sharphound_csv_reader.py group_memberships.csv | grep Admins | grep user | sort -u
 
