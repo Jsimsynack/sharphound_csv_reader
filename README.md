@@ -40,7 +40,8 @@ Group Policy Creator Owners@agents.spy,"Administrator@agents.spy","user"
 Domain Admins@agents.spy,"Administrator@agents.spy","user"
 
 Enterprise Admins@agents.spy,"Administrator@agents.spy","user"
-...
+
+(Remaining Output Omitted)...
  
 # Example (filtering result):
 Extracting Users from *Admins* using bash pipes (Debian Linux)
@@ -58,4 +59,5 @@ Enterprise Admins@agents.spy,"Administrator@agents.spy","user"
 Enterprise Admins@agents.spy,"fleiter@agents.spy","user"
 
 Schema Admins@agents.spy,"Administrator@agents.spy","user"
-...
+
+(Remaining Output Omitted)...
