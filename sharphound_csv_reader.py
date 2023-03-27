@@ -43,7 +43,7 @@ def file_exists(file):
 
 # Accessing values from arg1
 def running(file):
-	print(f'[+] Accessing values from {arg1}' + '\n')
+	print(f'[+] Accessing values from {arg1}' + '\n' + '[+]')
   
 	with open(file,'r') as header:
 		line1 = header.readline()
