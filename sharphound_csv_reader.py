@@ -22,13 +22,7 @@ def check_file():
 		sys.exit(1)
     
 	else:
-		
-		# Get the command line arguments
-		args = sys.argv
-		# The first argument is the name of the script itself
-		# so we will skip it
-		arguments = args[1:]
-		# Setting the first argument to a variable
+		# Assign the cli argument to variable
 		arg1 = arguments[0]
 
 # Checking to see if *.csv file exists within our local directory
