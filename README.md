@@ -11,7 +11,30 @@ This is a simple python script to read out the *.csv files created from sharphou
 
  ./sharphound_csv_reader.py <file.csv>
  
-# Example:
+#Example:
+./sharphound_csv_reader.py group_memberships.csv                                    
+
+[+] Make sure that you are running Python3.x.x
+[+] This function only takes *.csv files
+[+] Accessing values from group_memberships.csv
+[+]
+[+] Header row for group_memberships.csv:
+
+"GroupName","AccountName","AccountType"
+
+
+[+] Values for group_memberships.csv:
+
+Domain Users@agents.spy,"Administrator@agents.spy","user"
+
+Group Policy Creator Owners@agents.spy,"Administrator@agents.spy","user"
+
+Domain Admins@agents.spy,"Administrator@agents.spy","user"
+
+Enterprise Admins@agents.spy,"Administrator@agents.spy","user"
+...
+ 
+# Example (filtering result):
 Extracting Users from *Admins* using bash pipes (Debian Linux)
 
 Run:
@@ -27,3 +50,4 @@ Enterprise Admins@agents.spy,"Administrator@agents.spy","user"
 Enterprise Admins@agents.spy,"fleiter@agents.spy","user"
 
 Schema Admins@agents.spy,"Administrator@agents.spy","user"
+...
