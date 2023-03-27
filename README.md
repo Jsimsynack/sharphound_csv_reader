@@ -11,7 +11,7 @@ This is a simple python script to read out the *.csv files created from sharphou
 
  ./sharphound_csv_reader.py <file.csv>
  
-#Example:
+# Example:
 ./sharphound_csv_reader.py group_memberships.csv                                    
 
 [+] Make sure that you are running Python3.x.x
